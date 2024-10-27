@@ -106,6 +106,7 @@ console.log(formData);
 
     } catch (error) {
         console.error('Error submitting application:', error);
+        console.log(error.message);
         res.status(500).send({ error: 'Failed to submit application' });
     }
 });
