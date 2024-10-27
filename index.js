@@ -53,7 +53,8 @@ app.post('/upload', upload.fields([
     try {
         const formData = req.body;
         const files = req.files;
-
+        console.log("in");
+console.log(formData);
         // Prepare email attachments
         const attachments = [];
 
@@ -89,7 +90,14 @@ app.post('/upload', upload.fields([
             State: ${formData.state}\n
             City: ${formData.city}\n
             Address: ${formData.address}\n
-            SSN: ${formData.ssn}`,
+            SSN: ${formData.ssn}\n
+            Hours per week: ${formData.hoursPerWeek}\n
+            Preferred days and hours: ${formData.preferredDays}\n
+            Start Date: ${formData.startDate}\n
+            Smokes: ${formData.smoking}\n
+            Car details: ${formData.carDetails}\n
+            About: ${formData.about}`,
+
             attachments: attachments
         };
 
