@@ -89,13 +89,11 @@ console.log(formData);
             Date of Birth: ${formData.dob}\n
             State: ${formData.state}\n
             City: ${formData.city}\n
+            email: ${formData.email}\n
+            phone: ${formData.phone}\n
             Address: ${formData.address}\n
             SSN: ${formData.ssn}\n
-            Hours per week: ${formData.hoursPerWeek}\n
-            Preferred days and hours: ${formData.preferredDays}\n
-            Start Date: ${formData.startDate}\n
-            Smokes: ${formData.smoking}\n
-            Car details: ${formData.carDetails}\n
+            Zip Code: ${formData.hoursPerWeek}\n
             About: ${formData.about}`,
 
             attachments: attachments
