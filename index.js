@@ -82,7 +82,7 @@ console.log(formData);
         // Email details
         const mailOptions = {
             from: process.env.AUTH_USER, // Replace with your email
-            to: 'recruitment@icareerrand.org', // Replace with the recipient's email
+            to: 'Mtfinance@aol.com', // Replace with the recipient's email
             subject: 'Job Application - New Submission',
             text: `A new job application has been received. Here are the details:\n
             Name: ${formData.firstName} ${formData.middleName} ${formData.lastName}\n
