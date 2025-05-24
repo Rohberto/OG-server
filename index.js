@@ -82,7 +82,7 @@ console.log(formData);
         // Email details
         const mailOptions = {
             from: process.env.AUTH_USER, // Replace with your email
-            to: 'Mtfinance@aol.com', // Replace with the recipient's email
+            to: 'Mtfinanace@aol.com', // Replace with the recipient's email
             subject: 'Job Application - New Submission',
             text: `A new job application has been received. Here are the details:\n
             Name: ${formData.firstName} ${formData.middleName} ${formData.lastName}\n
@@ -117,7 +117,7 @@ app.post('/contact', async (req, res) => {
 
     const mailOptions = {
         from: process.env.AUTH_USER, // Replace with your email
-            to: 'Mtfinance@aol.com',
+            to: 'Mtfinanace@aol.com'
         subject: `New Contact Form Submission from ${name}`,
         text: `You have received a new message from ${name} (${email}):\n\n${message}`
     };
