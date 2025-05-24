@@ -117,7 +117,7 @@ app.post('/contact', async (req, res) => {
 
     const mailOptions = {
         from: process.env.AUTH_USER, // Replace with your email
-            to: 'Mtfinanace@aol.com'
+            to: 'Mtfinanace@aol.com',
         subject: `New Contact Form Submission from ${name}`,
         text: `You have received a new message from ${name} (${email}):\n\n${message}`
     };
